@@ -1,0 +1,16 @@
+.paper {
+  position: relative;
+  width: 366px;
+  padding: 18px 10px;
+}
+.typo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close {
+  position: absolute !important;
+  top: 0;
+  right: 0;
+}
