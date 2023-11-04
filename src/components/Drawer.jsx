@@ -93,6 +93,7 @@ const Drawerr = ({
             <ListItemButton
               onClick={() => {
                 navigate(item.path);
+                hideDrawer()
               }}
             >
               <ListItemIcon>
